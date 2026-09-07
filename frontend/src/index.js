@@ -10,5 +10,3 @@ root.render(
     <HomePage></HomePage>
   </React.StrictMode>
 );
-
-reportWebVitals();
