@@ -2,15 +2,16 @@ import React from 'react';
 function Awards() {
     return (
         <>
-            <div className="container m-5">
-                <div className="row mt-5" >
-                    <div className="col-6">
-                        <img src="/media/largestBroker.svg" alt="Awards Image" />
+            <div className="container m-10">
+                <div className="row mt-5" style={{display:"flex" ,justifyContent:"center",flexWrap:"wrap"}}>
+                    <div className="col-6 " style={{width:"33rem",margin:"0 0 0 0",height:"20rem"}}>
+                        <img src="/media/largestBroker.svg" alt="Awards Image" style={{ width: "100%" ,height:"100%"}} />
                     </div>
-                    <div className="col-6 mt-5">
+                    <div className="col-6"  style={{width:"33rem",margin:"0 0 0 0",height:"20rem"}}>
+                        <div className="content" style={{height:"100%",width:"100%",display:"flex",flexDirection:"column",justifyContent:"center"}}>
                         <h1>Largest Stockbroker in India</h1>
                         <p>We are proud to be recognized as the largest stockbroker in India, serving millions of investors with our reliable and innovative trading platform.</p>
-                        <div className="row">
+                        <div className="row" style={{ width: "100%" }}>
                             <div className="col-6">
                                 <ul>
                                     <li>Futures and Options</li>
@@ -37,6 +38,7 @@ function Awards() {
                                 <img src="/media/pressLogos.png" alt="Award Image" style={{ width: "100%" }} />
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
